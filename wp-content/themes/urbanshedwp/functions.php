@@ -116,6 +116,8 @@ add_action( 'widgets_init', 'urbanshedwp_widgets_init' );
 function urbanshedwp_scripts() {
 	wp_enqueue_style( 'bootstrap-styles', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '3.3.6', 'all' );
 
+	wp_enqueue_style( 'fontawesome-styles', get_template_directory_uri() . '/css/font-awesome.min.css', array(), '4.6.1', 'all' );
+
 	wp_enqueue_style( 'urbanshedwp-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '3.3.6', true );
