@@ -35,6 +35,24 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Galleries
 --------------------------------------------------------------*/
 
+
+/*--------------------------------------------------------------
+# Word Break
+--------------------------------------------------------------*/
+#primary, #secondary {
+	-ms-word-break: break-all;
+
+	/* be careful with this, breaks normal words wh_erever */
+	word-break: break-all;
+
+	/* non standard for webkit */
+	word-break: break-word;
+
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+
 /*--------------------------------------------------------------
 # Alignments
 --------------------------------------------------------------*/
