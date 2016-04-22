@@ -14,10 +14,14 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'urbanshedwp' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'urbanshedwp' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'urbanshedwp' ), 'urbanshedwp', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+		<div class="container">
+			<div class="row">
+				<div class="site-info">
+					<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'urbanshedwp' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'urbanshedwp' ), 'WordPress' ); ?></a>
+					<span class="sep"> | </span>
+					<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'urbanshedwp' ), 'urbanshedwp', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+				</div><!-- .row -->
+			</div><!-- .container -->
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
